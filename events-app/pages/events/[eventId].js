@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 function EventDetailPage() {
   const router = useRouter();
@@ -7,7 +7,7 @@ function EventDetailPage() {
     <div>
       <h1>Event Detail Page</h1>
     </div>
-  )
+  );
 }
 
-export default EventDetailPage
+export default EventDetailPage;
